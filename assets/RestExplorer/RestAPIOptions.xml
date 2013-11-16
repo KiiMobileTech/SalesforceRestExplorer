@@ -1,0 +1,22 @@
+<model>
+  <header text="REST APIs">
+    <item text="Get Versions" method="requestForVersions"/>
+    <item text="Get Resouces" method="requestForResources"/>
+    <item text="Describe Global" method="requestForDescribeGlobal"/>
+    <item text="Get Metadata" method="requestForMetadata"/>
+    <item text="Describe Object" method="requestForDescribeObject"/>
+    <item text="Get Object" method="requestForRetrieveObject"/>
+    <item text="Create Object" method="requestForCreateObject"/>
+    <item text="Update Object" method="requestForUpdateObject"/>
+    <item text="Upsert Object" method="requestForUpsertObject"/>
+    <item text="Delete Object" method="requestForDeleteObject"/>
+    <item text="Perform Query" method="requestForQuery"/>
+    <item text="Search String" method="requestForSearch"/>
+    <item text="Custom Request" method="customRequest"/>
+  </header>
+  <header text="Query APIs">
+    <item text="Generate SOQL Query" method="generateSOQLQuery"/>
+    <item text="Generate SOSL Search Query" method="generateSOSLSearchQuery"/>
+    <item text="Sanitize SOSL Search Term" method="sanitizeSOSLSearchTerm"/>
+  </header>
+</model>

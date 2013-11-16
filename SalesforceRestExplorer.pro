@@ -8,4 +8,6 @@ PRE_TARGETDEPS ~= s/.*SalesforceSDK.*/ #remove incorrect target
 
 CONFIG += salesforcesdk
 
+LIBS += -lbb
 LIBS += -lbbdata
+LIBS += -lbbsystem
