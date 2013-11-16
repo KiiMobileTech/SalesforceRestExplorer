@@ -47,7 +47,7 @@ TabbedPane {
                             title: qsTr("Settings")
                             dismissAction: ActionItem {
                                 title: "Back"
-                                imageSource: "asset:///images/ic_previous.png"
+                                imageSource: "asset:///RestExplorer/images/icon_previous.png"
                                 onTriggered: {
                                     settingsSheet.close();
                                 }

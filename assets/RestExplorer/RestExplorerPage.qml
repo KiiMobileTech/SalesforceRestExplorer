@@ -59,28 +59,28 @@ Page {
             id: invokeAction
             objectName: "invokeAction"
             title: "Start Test"
-            imageSource: "asset:///RestExplorer/images/ic_done.png"
+            imageSource: "asset:///RestExplorer/images/icon_done.png"
             ActionBar.placement: ActionBarPlacement.OnBar
         },
         ActionItem {
             id: resetAction
             objectName: "resetAction"
             title: "Clear All"
-            imageSource: "asset:///RestExplorer/images/ic_clear.png"
+            imageSource: "asset:///RestExplorer/images/icon_clear.png"
             ActionBar.placement: ActionBarPlacement.OnBar
         },
         ActionItem {
             id: historyAction
             objectName: "historyAction"
             title: "Open History"
-            imageSource: "asset:///RestExplorer/images/ic_history.png"
+            imageSource: "asset:///RestExplorer/images/icon_history.png"
             ActionBar.placement: ActionBarPlacement.OnBar
         },
         ActionItem {
             id: clearHistoryAction
             objectName: "clearHistoryAction"
             title: "Clear History"
-            imageSource: "asset:///RestExplorer/images/bb_action_delete.png"
+            imageSource: "asset:///RestExplorer/images/action_delete.png"
             ActionBar.placement: ActionBarPlacement.InOverflow
         }, 
         ActionItem {
